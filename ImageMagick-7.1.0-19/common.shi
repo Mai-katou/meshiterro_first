@@ -1,0 +1,27 @@
+# -*- shell-script -*-
+# Copyright 1999-2021 ImageMagick Studio LLC
+# Definitions of optional features and configuration values for this build.
+# Intended for use by test scripts.
+MAGICK_FEATURES='DPC HDRI Cipher OpenMP'
+top_srcdir='/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19'
+top_builddir='/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19'
+
+set -a
+COMPARE="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick compare"
+COMPOSITE="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick composite"
+CONJURE="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick conjure"
+CONVERT="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick convert"
+DISPLAY="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick display"
+IDENTIFY="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick identify"
+MAGICK="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick"
+MONTAGE="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities/magick montage"
+VALIDATE="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/tests/validate"
+DRAWTEST="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/tests/drawtest"
+WANDTEST="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/tests/wandtest"
+LD_LIBRARY_PATH="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/MagickCore/.libs:/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/MagickWand/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/coders"
+MAGICK_CONFIGURE_PATH="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/config:/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/config"
+MAGICK_FILTER_MODULE_PATH="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/filters"
+MAGICK_FONT="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/PerlMagick/demo/Generic.ttf"
+PATH="/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/utilities:/home/ec2-user/environment/meshiterro/ImageMagick-7.1.0-19/tests:${PATH}"
+set +a
